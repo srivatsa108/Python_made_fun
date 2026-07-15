@@ -24,3 +24,4 @@ print('name' in my_dict)  # True
 
 #Print value of a key
 print(my_dict['name'])  # Alice
+
