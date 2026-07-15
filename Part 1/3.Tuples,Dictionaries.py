@@ -25,3 +25,11 @@ print('name' in my_dict)  # True
 #Print value of a key
 print(my_dict['name'])  # Alice
 
+'''
+Note:
+When there is unordered data and no worries about memory allocation - List
+    
+When there is ordered data and it needs to be memory efficient - Tuple
+
+When there is key-value pair data  used for faster lookups and quick indexing - Dictionary
+'''
