@@ -17,3 +17,10 @@ print(my_dict.keys())
 
 #To retrive values
 print(my_dict.values())
+
+#Check values are there in the dictionary
+
+print('name' in my_dict)  # True
+
+#Print value of a key
+print(my_dict['name'])  # Alice
