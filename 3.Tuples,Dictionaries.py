@@ -5,3 +5,15 @@ print(my_tuple[0:3])  # Slicing the tuple
 
 my_list = list(my_tuple)  # Converting tuple to list
 print(my_list)
+
+#Dictionaries are mutable
+my_dict = {'name': 'Alice', 'age': 25, 'city': 'New York'}
+my_dict2 = dict(name='Bob', age=30, city='Los Angeles')  # Another way to create a dictionary
+print(my_dict)
+print(my_dict2)
+
+#To retrive keys
+print(my_dict.keys())
+
+#To retrive values
+print(my_dict.values())
