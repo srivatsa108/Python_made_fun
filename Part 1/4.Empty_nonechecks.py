@@ -8,7 +8,7 @@ nothing = None
 if empty_list == []:
     print("The list is empty.")
 
-if empty_tuple == ():
+if empty_tuple:
     print("The tuple is empty.")
 
 if not empty_string:
